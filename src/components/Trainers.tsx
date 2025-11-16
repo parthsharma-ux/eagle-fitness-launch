@@ -4,18 +4,18 @@ import trainer2 from "@/assets/trainer-2.jpg";
 
 const trainers = [
   {
-    name: "Rajesh Kumar",
-    title: "Head Trainer",
-    specialization: "Strength & Conditioning",
+    name: "Mahender",
+    title: "Head Trainer & Owner",
+    specialization: "Strength Training & Body Transformation",
     image: trainer1,
-    experience: "8+ years"
+    experience: "10+ years"
   },
   {
-    name: "Priya Sharma",
-    title: "Fitness Coach",
-    specialization: "Weight Loss & Nutrition",
+    name: "Fitness Coach",
+    title: "Certified Trainer",
+    specialization: "Weight Loss & Functional Training",
     image: trainer2,
-    experience: "5+ years"
+    experience: "6+ years"
   }
 ];
 

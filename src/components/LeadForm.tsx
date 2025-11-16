@@ -23,8 +23,10 @@ export const LeadForm = ({ open, onOpenChange }: LeadFormProps) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Send to WhatsApp
-    const message = `New Membership Inquiry:%0A%0AName: ${formData.name}%0APhone: ${formData.phone}%0AGoal: ${formData.goal}%0APreferred Time: ${formData.time}`;
+    // Send to WhatsApp with properly encoded message
+    const message = encodeURIComponent(
+      `New Membership Inquiry:\n\nName: ${formData.name}\nPhone: ${formData.phone}\nGoal: ${formData.goal}\nPreferred Time: ${formData.time}`
+    );
     window.open(`https://wa.me/919799003393?text=${message}`, "_blank");
     
     toast({

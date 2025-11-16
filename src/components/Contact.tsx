@@ -3,7 +3,7 @@ import { MapPin, Phone, MessageCircle, Instagram } from "lucide-react";
 
 export const Contact = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919799003393?text=Hi, I want to know more about Eagle Fitness!", "_blank");
+    window.open("https://wa.me/919799003393?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Eagle%20Fitness%21", "_blank");
   };
 
   const handleCall = () => {
