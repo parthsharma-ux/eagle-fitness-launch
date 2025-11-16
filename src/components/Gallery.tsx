@@ -18,21 +18,14 @@ export const Gallery = () => {
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">Experience World-Class Fitness</p>
         
-        <div className="grid md:grid-cols-1 gap-6 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-1 gap-6 max-w-6xl mx-auto">
           {galleryImages.map((item, index) => (
             <Card key={index} className="bg-card border-border overflow-hidden group hover:border-gym-red transition-all">
-              <div className="relative overflow-hidden">
-                <img 
-                  src={item.image} 
-                  alt={item.title}
-                  className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">{item.title}</h3>
-                  <p className="text-gray-200">{item.description}</p>
-                </div>
-              </div>
+              <img 
+                src={item.image} 
+                alt={item.title}
+                className="w-full h-auto object-contain"
+              />
             </Card>
           ))}
         </div>
