@@ -1,21 +1,21 @@
 import { Card, CardContent } from "@/components/ui/card";
-import trainer1 from "@/assets/trainer-1.jpg";
-import trainer2 from "@/assets/trainer-2.jpg";
+import lokeshOwner from "@/assets/lokesh-owner.jpg";
+import mahendraTrainer from "@/assets/mahendra-trainer.jpg";
 
 const trainers = [
   {
-    name: "Mahender",
-    title: "Head Trainer & Owner",
-    specialization: "Strength Training & Body Transformation",
-    image: trainer1,
+    name: "Lokesh Choudhary",
+    title: "Owner & Founder",
+    specialization: "Fitness Management & Body Transformation",
+    image: lokeshOwner,
     experience: "10+ years"
   },
   {
-    name: "Fitness Coach",
-    title: "Certified Trainer",
-    specialization: "Weight Loss & Functional Training",
-    image: trainer2,
-    experience: "6+ years"
+    name: "Mahendra Choudhary",
+    title: "Head Trainer",
+    specialization: "Strength Training & Functional Training",
+    image: mahendraTrainer,
+    experience: "8+ years"
   }
 ];
 
