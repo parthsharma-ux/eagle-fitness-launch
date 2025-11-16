@@ -8,7 +8,7 @@ interface HeroProps {
 
 export const Hero = ({ onJoinClick }: HeroProps) => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919799003393?text=Hi, I'm interested in joining Eagle Fitness!", "_blank");
+    window.open("https://wa.me/919799003393?text=Hi%2C%20I%27m%20interested%20in%20joining%20Eagle%20Fitness%21", "_blank");
   };
 
   return (
